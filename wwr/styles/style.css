@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rock+Salt&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +8,7 @@ nav a {
     text-align: center;
     color: #d8f3dc;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -25,8 +27,16 @@ main section {
     height: 725px;
 }
 
+h2 {
+    margin 0;
+}
+
 body {
     background-color: white;
+    font-family:'Rock Salt', Helvetica, sans-serif;
+    font-size: 22px;
+    margin:  0;
+    padding: 0;
 }
 
 header {
@@ -45,11 +55,15 @@ nav a:hover {
 
 .msg {
     background-color: #2d6a4f;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: #2d6a4f;
     color: #d8f3dc;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color:#d8f3dc;
@@ -62,6 +76,9 @@ footer a:hover {
 
 .home-title {
     color: #081c15;
+    font-family:'Rock Salt', Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -72,18 +89,26 @@ h4 {
     background-color: #2d6a4f;
     color: #d8f3dc;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .msg h2 {
     color: #d8f3dc;
+    font-family:'Rock Salt', Helvetica, sans-serif;
 }
 
 .msg p {
     color: #d8f3dc;
+    font-size: .8em;
+    padding: 15px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo {
@@ -100,4 +125,23 @@ footer p a:hover {
 
 #hero-img {
     width: 100%;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border:10px solid #081c15;
+}
+
+main-section img {
+    box-sizing: border-box;
 }
