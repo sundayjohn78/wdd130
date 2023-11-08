@@ -250,3 +250,41 @@ main-section img {
         margin-top: 25px;
     }
 }
+/* Design for rivers subpage */
+#hero-rivers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 50px 0px;  
+}
+#home-title-rivers {
+    background-color: #081c15;
+    color: #d8f3dc;
+    font-family:'Rock Salt', Helvetica, sans-serif;
+    font-size: 2em;
+    grid-column: 2/3;
+    text-align: center;
+    border-radius: 20px;
+}
+#rivers {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr
+}
+.rivers-details h1 {
+    color: #081c15;
+    text-align: left;
+}
+.rivers-details {
+    grid-column: 2/3;
+}
+.rivers-details img {
+    width: 100%;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.rivers-details p {
+    background-color: #081c15;
+    color: #d8f3dc;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 0px 50px;
+    margin: 0px 20px;
+}
