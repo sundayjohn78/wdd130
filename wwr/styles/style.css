@@ -264,6 +264,7 @@ main-section img {
     grid-column: 2/3;
     text-align: center;
     border-radius: 20px;
+    padding: 0px 20px;
 }
 #rivers {
     display: grid;
