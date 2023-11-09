@@ -270,7 +270,7 @@ main-section img {
     display: grid;
     grid-template-columns: 1fr 8fr 1fr
 }
-.rivers-details h1 {
+.rivers-details h2 {
     color: #081c15;
     text-align: left;
 }
