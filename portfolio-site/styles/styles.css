@@ -150,10 +150,12 @@ footer a {
     height: 300px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
     margin: 0 auto;
     margin-top: 5%;
     background-color: white;
     border-radius: 20px;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 .project-details h4 {
     grid-column: 1/2;
@@ -164,21 +166,19 @@ footer a {
 }
 .project-details p {
     grid-column: 1/2;
-    grid-row: 1/1;
-    margin-top: 30%;
+    grid-row: 2/3;
     margin-left: 10%;
     font-size: 15px;
 }
 .aproject {
     grid-column: 1/2;
-    grid-row: 1/1;
-    margin-top: 45%;
+    grid-row:3/4;
     margin-left: 10%;
 }
 .aproject a {
     text-decoration: none;
     padding: 5px 5px 5px 5px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 2px solid #04140C;
     color: #04140C;
 
@@ -189,6 +189,7 @@ footer a {
 }
 .project-details img {
     grid-column: 2/2;
+    grid-row: 1/4;
     width: 100%;
     height: 100%;
     border-top-right-radius: 20px;
@@ -199,10 +200,12 @@ footer a {
     height: 300px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
     margin: 0 auto;
     margin-top: 5%;
     background-color: white;
     border-radius: 20px;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 .project-details-reverse h4 {
     grid-column: 2/2;
@@ -213,13 +216,13 @@ footer a {
 }
 .project-details-reverse p {
     grid-column: 2/2;
-    grid-row: 1/1;
-    margin-top: 30%;
+    grid-row: 2/3;
     margin-left: 10%;
     font-size: 15px;
 }
 .project-details-reverse img {
     grid-column: 1/2;
+    grid-row: 1/4;
     width: 100%;
     height: 100%;
     border-top-left-radius: 20px;
@@ -227,14 +230,13 @@ footer a {
 }
 .aproject-reverse {
     grid-column: 2/2;
-    grid-row: 1/1;
-    margin-top: 45%;
+    grid-row: 3/4;
     margin-left: 10%;
 }
 .aproject-reverse a {
     text-decoration: none;
     padding: 5px 5px 5px 5px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 2px solid #04140C;
     color: #04140C;
 
@@ -242,4 +244,30 @@ footer a {
 .aproject-reverse a:hover {
     background-color: #04140C;
     color: #95D5B2;
+}
+@media screen and (max-width: 900px) {
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    .about-me {
+        text-align: center;
+        font-size: 15px;
+    }
+    #introduction {
+        display: block;
+    }
+    .intro {
+        text-align: center;
+    }
+    #img-sec { 
+        margin: 0 auto;
+        width: 100%;
+    }
+    footer {
+        margin-top: 25px;
+    }
 }
