@@ -135,6 +135,9 @@ footer a {
     justify-self: center;
     margin-top: 10%;
 }
+#others {
+    justify-self: center;
+}
 #heading {
     text-align: center;
 }
